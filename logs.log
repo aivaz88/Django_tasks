@@ -1,0 +1,33 @@
+Watching for file changes with StatReloader
+C:\Users\Asus\Desktop\GeekBrains\Django\myproject\shopapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Heads or Tails page started
+"GET /task1/heads_or_tails/ HTTP/1.1" 200 10
+Cube page started
+"GET /task1/cube/ HTTP/1.1" 200 15
+Random Number page started
+"GET /task1/random_number/ HTTP/1.1" 200 33
+C:\Users\Asus\Desktop\GeekBrains\Django\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Random Number page started
+"GET /task1/random_number/ HTTP/1.1" 200 33
+Cube page started
+"GET /task1/cube/ HTTP/1.1" 200 15
+Heads or Tails page started
+"GET /task1/heads_or_tails/ HTTP/1.1" 200 10
+C:\Users\Asus\Desktop\GeekBrains\Django\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Heads or Tails page started
+"GET /task1/heads_or_tails/ HTTP/1.1" 200 10
+Cube page started
+"GET /task1/cube/ HTTP/1.1" 200 15
+Random Number page started
+"GET /task1/random_number/ HTTP/1.1" 200 33
+C:\Users\Asus\Desktop\GeekBrains\Django\myproject\myproject\settings.py changed, reloading.
+INFO 2024-01-22 15:03:11,846 autoreload 6592 25072 Watching for file changes with StatReloader
+INFO 2024-01-22 15:03:17,594 views 6592 33980 Random Number page started
+INFO 2024-01-22 15:03:17,596 basehttp 6592 33980 "GET /task1/random_number/ HTTP/1.1" 200 33
+INFO 2024-01-22 15:03:23,661 views 6592 33980 Cube page started
+INFO 2024-01-22 15:03:23,662 basehttp 6592 33980 "GET /task1/cube/ HTTP/1.1" 200 15
+INFO 2024-01-22 15:03:27,879 views 6592 33980 Heads or Tails page started
+INFO 2024-01-22 15:03:27,880 basehttp 6592 33980 "GET /task1/heads_or_tails/ HTTP/1.1" 200 8
