@@ -1,0 +1,28 @@
+{% extends 'shopapp/base.html' %}
+
+
+{% block title %}
+  Вход в систему
+{% endblock %}
+
+{% block login %}
+    <p>
+        <a href="/registration/" class="nav-link"><input type="submit" value="регистрация"></a>
+    </p>
+{% endblock %}
+
+{% block content %}
+    <p>Войдите в систему:</p>
+    <form method="POST" action="">
+        {% csrf_token %}
+        {% if message %}
+            <div class="row fixed-bottom modal-footer" style="color:red">
+                <hr><p>{{ message }}</p>
+            </div>
+        {% endif %}
+        {{ form.as_p }}
+        <p>
+            <input type="submit" value="Войти">
+        </p>
+    </form>
+{% endblock %}

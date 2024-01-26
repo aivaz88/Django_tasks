@@ -1,0 +1,33 @@
+{% extends 'shopapp/base.html' %}
+{% load static %}
+
+{% block title %}
+  {{ products_type }}
+{% endblock %}
+
+{% block login %}
+    {% if user_name == "" %}
+        <p>
+            <a href="/login/" class="nav-link"><input type="submit" value="вход"></a>
+            <a href="/registration/" class="nav-link"><input type="submit" value="регистрация"></a>
+        </p>
+    {% else %}
+        <p>{{ user_name }} <a href="/greeting/" class="nav-link"><input type="submit" value="выйти"></a></p>
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+  <table>
+      {% for product in products %}
+      <tr>
+            <th width="150"><a href="/item_card/{{ product.id }}/" class="nav-link" >{{ product.name }}</a></th>
+      </tr>
+      <tr>
+            <th width="150"><img src="{% static product.image %}" alt="Фото товара" width="300"></th>
+      </tr>
+      <tr>
+            <th width="150">{{ product.price }}</th>
+      </tr>
+      {% endfor %}
+  </table>
+{% endblock %}

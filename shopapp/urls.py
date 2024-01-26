@@ -1,9 +1,16 @@
 from django.urls import path
-from . import views
+from .views import main, about, contacts, login_form, registration_form, greeting, clothes, shoes, accessories
+from.views import item_card
 
 urlpatterns = [
-    path('', views.index, name='index'),
-    path('heads_or_tails/', views.heads_or_tails, name='heads_or_tails'),
-    path('cube/', views.cube, name='cube'),
-    path('random_number/', views.random_number, name='random_number'),
+    path('', main, name='main'),
+    path('about/', about, name='about'),
+    path('contacts/', contacts, name='contacts'),
+    path('login/', login_form, name='login_form'),
+    path('registration/', registration_form, name='registration'),
+    path('greeting/', greeting, name='greeting'),
+    path('clothes/', clothes, name='clothes'),
+    path('shoes/', shoes, name='shoes'),
+    path('accessories/', accessories, name='accessories'),
+    path('item_card/<str:pk>/', item_card, name='item_card'),
 ]
