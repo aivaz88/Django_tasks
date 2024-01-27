@@ -4151,3 +4151,97 @@ INFO 2024-01-27 10:11:14,375 basehttp 31832 14420 "GET / HTTP/1.1" 200 1676
 INFO 2024-01-27 10:20:08,099 autoreload 31668 29768 Watching for file changes with StatReloader
 INFO 2024-01-27 10:20:25,315 basehttp 31668 31648 "GET /admin HTTP/1.1" 301 0
 INFO 2024-01-27 10:20:25,350 basehttp 31668 29280 "GET /admin/ HTTP/1.1" 200 5944
+INFO 2024-01-27 11:17:23,431 autoreload 31232 30804 Watching for file changes with StatReloader
+INFO 2024-01-27 11:17:23,889 basehttp 31232 28736 "GET /admin/auth/group/ HTTP/1.1" 200 7783
+INFO 2024-01-27 11:17:24,105 basehttp 31232 7492 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-27 11:17:24,122 basehttp 31232 28736 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+INFO 2024-01-27 11:17:24,142 basehttp 31232 28736 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-01-27 11:17:24,152 basehttp 31232 7492 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-01-27 11:17:24,163 basehttp 31232 28736 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+INFO 2024-01-27 11:17:24,171 basehttp 31232 7492 "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+INFO 2024-01-27 11:17:24,179 basehttp 31232 28736 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-01-27 11:17:24,188 basehttp 31232 7492 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-01-27 11:17:24,191 basehttp 31232 28800 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2024-01-27 11:17:24,193 basehttp 31232 28024 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-01-27 11:17:24,229 basehttp 31232 28024 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-01-27 11:17:24,269 basehttp 31232 28736 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-01-27 11:17:24,331 basehttp 31232 28736 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-01-27 11:17:35,459 basehttp 31232 28736 "GET /admin/auth/user/ HTTP/1.1" 200 11918
+INFO 2024-01-27 11:17:35,482 basehttp 31232 28736 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-27 11:17:35,489 basehttp 31232 28024 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-01-27 11:17:35,634 basehttp 31232 28024 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2024-01-27 11:17:35,634 basehttp 31232 28736 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2024-01-27 12:29:12,631 autoreload 31232 30804 C:\Users\Asus\Desktop\GeekBrains\Django\myproject\shopapp\admin.py changed, reloading.
+INFO 2024-01-27 12:29:13,160 autoreload 764 26960 Watching for file changes with StatReloader
+INFO 2024-01-27 12:29:39,512 basehttp 764 8932 "GET /admin/auth/user/ HTTP/1.1" 200 13068
+INFO 2024-01-27 12:29:39,530 basehttp 764 8932 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-27 12:29:42,715 basehttp 764 8932 "GET /admin/shopapp/order/ HTTP/1.1" 200 11796
+INFO 2024-01-27 12:29:42,732 basehttp 764 8932 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-27 12:29:46,355 basehttp 764 8932 "GET /admin/shopapp/order/1/change/ HTTP/1.1" 200 13324
+INFO 2024-01-27 12:29:46,381 basehttp 764 24728 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-27 12:29:46,434 basehttp 764 8932 "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+INFO 2024-01-27 12:29:46,438 basehttp 764 10020 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-01-27 12:29:46,444 basehttp 764 8932 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+INFO 2024-01-27 12:29:46,453 basehttp 764 10020 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-01-27 12:30:14,345 basehttp 764 10020 "GET /admin/shopapp/product/ HTTP/1.1" 200 12903
+INFO 2024-01-27 12:30:14,366 basehttp 764 10020 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-27 12:30:17,460 basehttp 764 10020 "GET /admin/shopapp/product/1/change/ HTTP/1.1" 200 12992
+INFO 2024-01-27 12:30:17,487 basehttp 764 10020 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-27 12:30:32,348 basehttp 764 10020 "GET /admin/shopapp/order/ HTTP/1.1" 200 11796
+INFO 2024-01-27 12:30:32,368 basehttp 764 10020 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-27 12:30:34,364 basehttp 764 10020 "GET /admin/shopapp/user/ HTTP/1.1" 200 10401
+INFO 2024-01-27 12:30:34,387 basehttp 764 10020 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-27 12:30:40,053 basehttp 764 10020 "GET /admin/shopapp/order/ HTTP/1.1" 200 11796
+INFO 2024-01-27 12:30:40,072 basehttp 764 10020 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-27 13:15:47,487 autoreload 32468 30144 Watching for file changes with StatReloader
+INFO 2024-01-27 13:15:55,023 views 32468 5852 Main page started
+INFO 2024-01-27 13:15:55,367 basehttp 32468 5852 "GET / HTTP/1.1" 200 11447
+INFO 2024-01-27 13:15:55,386 basehttp 32468 5852 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2024-01-27 13:15:55,386 basehttp 32468 8564 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2024-01-27 13:15:55,486 basehttp 32468 8564 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2024-01-27 13:15:55,511 basehttp 32468 8564 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+INFO 2024-01-27 13:17:20,348 basehttp 32468 8564 "GET /__debug__/render_panel/?store_id=81349e2c1da340c1a79411f33a6e9d07&panel_id=VersionsPanel HTTP/1.1" 200 760
+INFO 2024-01-27 13:17:28,913 basehttp 32468 8564 "GET /__debug__/render_panel/?store_id=81349e2c1da340c1a79411f33a6e9d07&panel_id=HistoryPanel HTTP/1.1" 200 2505
+INFO 2024-01-27 13:17:28,916 basehttp 32468 8564 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3330
+INFO 2024-01-27 13:20:24,484 basehttp 32468 8564 "GET /__debug__/render_panel/?store_id=81349e2c1da340c1a79411f33a6e9d07&panel_id=SettingsPanel HTTP/1.1" 200 26634
+INFO 2024-01-27 13:21:14,466 basehttp 32468 8564 "GET /__debug__/render_panel/?store_id=81349e2c1da340c1a79411f33a6e9d07&panel_id=HeadersPanel HTTP/1.1" 200 5449
+INFO 2024-01-27 13:21:29,969 basehttp 32468 8564 "GET /__debug__/render_panel/?store_id=81349e2c1da340c1a79411f33a6e9d07&panel_id=RequestPanel HTTP/1.1" 200 2566
+INFO 2024-01-27 13:22:21,014 views 32468 8564 Clothes page started
+INFO 2024-01-27 13:22:21,058 basehttp 32468 8564 "GET /clothes/ HTTP/1.1" 200 12258
+INFO 2024-01-27 13:22:21,080 basehttp 32468 8564 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-01-27 13:22:21,113 basehttp 32468 8564 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-01-27 13:22:21,118 basehttp 32468 8564 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-01-27 13:22:21,120 basehttp 32468 8564 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-01-27 13:22:24,128 views 32468 8564 Product card page started
+INFO 2024-01-27 13:22:24,150 basehttp 32468 8564 "GET /item_card/8/ HTTP/1.1" 200 11885
+INFO 2024-01-27 13:22:25,997 basehttp 32468 8564 "GET /__debug__/render_panel/?store_id=975fc89729cc46dfbafcb4d11dc4a70f&panel_id=RequestPanel HTTP/1.1" 200 2605
+INFO 2024-01-27 13:23:07,398 basehttp 32468 8564 "GET /registration/ HTTP/1.1" 200 12672
+INFO 2024-01-27 13:24:15,820 views 32468 8564 «арегистрирован новый пользователь
+INFO 2024-01-27 13:24:15,833 basehttp 32468 8564 "POST /registration/ HTTP/1.1" 302 0
+INFO 2024-01-27 13:24:15,835 views 32468 8564 Main page started
+INFO 2024-01-27 13:24:15,851 basehttp 32468 8564 "GET / HTTP/1.1" 200 11322
+INFO 2024-01-27 13:24:15,872 basehttp 32468 31856 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-01-27 13:24:15,872 basehttp 32468 8564 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-01-27 13:24:15,915 basehttp 32468 8564 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-01-27 13:24:15,920 basehttp 32468 8564 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-01-27 13:24:21,231 basehttp 32468 8564 "GET /__debug__/render_panel/?store_id=bb20cb4f92224c52bb100a1449ec1818&panel_id=RequestPanel HTTP/1.1" 200 2577
+INFO 2024-01-27 13:24:41,145 basehttp 32468 8564 "GET /__debug__/render_panel/?store_id=bb20cb4f92224c52bb100a1449ec1818&panel_id=HistoryPanel HTTP/1.1" 200 11958
+INFO 2024-01-27 13:24:41,151 basehttp 32468 8564 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 304 0
+INFO 2024-01-27 13:28:03,160 basehttp 32468 8564 "GET /__debug__/render_panel/?store_id=bb20cb4f92224c52bb100a1449ec1818&panel_id=SQLPanel HTTP/1.1" 200 27480
+INFO 2024-01-27 13:29:03,316 basehttp 32468 8564 "GET /__debug__/render_panel/?store_id=bb20cb4f92224c52bb100a1449ec1818&panel_id=StaticFilesPanel HTTP/1.1" 200 36496
+INFO 2024-01-27 13:33:26,848 basehttp 32468 8564 "GET /__debug__/render_panel/?store_id=bb20cb4f92224c52bb100a1449ec1818&panel_id=SignalsPanel HTTP/1.1" 200 2320
+INFO 2024-01-27 13:34:03,707 views 32468 8564 About page started
+INFO 2024-01-27 13:34:03,734 basehttp 32468 8564 "GET /about/ HTTP/1.1" 200 11356
+INFO 2024-01-27 13:34:03,769 basehttp 32468 8564 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-01-27 13:34:03,770 basehttp 32468 24392 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-01-27 13:34:03,867 basehttp 32468 24392 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-01-27 13:34:03,883 basehttp 32468 24392 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-01-27 13:34:05,460 basehttp 32468 24392 "GET /about HTTP/1.1" 200 10394
+INFO 2024-01-27 13:34:05,484 basehttp 32468 8564 "GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 200 48
+INFO 2024-01-27 13:34:05,488 basehttp 32468 8564 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-01-27 13:34:05,525 basehttp 32468 8564 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-01-27 13:34:28,221 views 32468 8564 About page started
+INFO 2024-01-27 13:34:28,237 basehttp 32468 8564 "GET /about/ HTTP/1.1" 200 11356
+INFO 2024-01-27 13:34:31,255 basehttp 32468 8564 "GET /__debug__/render_panel/?store_id=3aa2e7273346418d8333c0a395324fef&panel_id=CachePanel HTTP/1.1" 200 1737
+INFO 2024-01-27 16:57:47,843 autoreload 32468 30144 C:\Users\Asus\Desktop\GeekBrains\Django\myproject\myproject\settings.py changed, reloading.
+INFO 2024-01-27 16:57:48,756 autoreload 780 18268 Watching for file changes with StatReloader
