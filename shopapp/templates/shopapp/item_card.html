@@ -30,5 +30,19 @@
       <tr>
             <th width="150">{{ product.price }}</th>
       </tr>
+      {% if message %}
+      <tr>
+            <th width="150">
+                <div class="row fixed-bottom modal-footer" style="color:red">
+                    <hr><p>{{ message }}</p>
+                </div>
+            </th>
+      </tr>>
+      {% endif %}
+      <tr>
+            <th width="150">
+                <a href="/order_access/{{ product.id }}/" class="nav-link" ><input type="submit" value="Оформить заказ"></a>
+            </th>
+      </tr>
   </table>
 {% endblock %}

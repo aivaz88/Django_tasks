@@ -1,10 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends 'shopapp/base.html' %}
+
+{% block title %}
+  Оформление заказа
+{% endblock %}
+
+{% block login %}
+    {% if user_name == "" %}
+        <p>
+            <a href="/login/" class="nav-link"><input type="submit" value="вход"></a>
+            <a href="/registration/" class="nav-link"><input type="submit" value="регистрация"></a>
+        </p>
+    {% else %}
+        <p>{{ user_name }} <a href="/greeting/" class="nav-link"><input type="submit" value="выйти"></a></p>
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+    <p>{{ message }}</p>
+{% endblock %}

@@ -156,3 +156,23 @@ def greeting(request):
             'user_email': email,
         }
     return render(request, 'shopapp/greeting.html', context)
+
+
+def order_access(request, pk):
+    context = {'user_name': ""}
+    try:
+        email = request.COOKIES['user_email']
+    except:
+        email = ""
+        context['message'] = 'Заказ не оформлен! Выполните вход в систему'
+    if email == "":
+        context['message'] = 'Заказ не оформлен! Выполните вход в систему'
+    else:
+        user = User.objects.filter(email=email).first()
+        product = Product.objects.filter(id=pk).first()
+        context['user_name'] = user.name
+        context['message'] = 'Поздравляем, заказ оформлен!'
+        order = Order(total_price=product.price, customer_id=user.id)
+        order.save()
+        logger.info(f'Оформлен заказ')
+    return render(request, 'shopapp/order_access.html/', context)
